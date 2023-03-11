@@ -291,19 +291,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Mr Praveen Sharma',
+      text: 'Vaibhav is a skilled developer and is able to work individually and with the team excellently on any of the user stories that are assigned to him. He has an eye for detail and always is thorough with his analysis and preparation of different tasks and client presentations. He is always ready to help others to expedite overall delivery. The client has always appreciated his communication skill, asking the right set of questions during the client call. He has got a product engineering mindset for implementing the Delivery unit projects for the client in the stipulated time.',
+      image: 'https://media.licdn.com/dms/image/C4E03AQGG-qU1SCOi5A/profile-displayphoto-shrink_800_800/0/1516993561441?e=1683763200&v=beta&t=GpKrhZITqa_3auXBuA_jkkLqPgBGT-E_7Wc-uVQr3nU',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'Dr Megha Kolhekar',
+      text: 'I have known Vaibhav for about three years now. Having taught him courses in Image Processing & Machine Vision and Neural Networks & Fuzzy Logic; I have got to know him quite well. The most striking features of his academic personality are his intelligence, keen interest, not taking concepts in their face values, learning through experimenting, meticulousness, and good hand in technical articulation. He is very observant, frames his questions so rightfully that they provide a deeper insight',
+      image: 'https://media.licdn.com/dms/image/C4D03AQF4Uk4kwGOGbg/profile-displayphoto-shrink_800_800/0/1517232249230?e=1683763200&v=beta&t=k6ebELr1UEcnc7zxTJxrpfQRfXNw6r-fwbJP27PkzSc',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Ms Anjali Sherikar',
+      text: 'Vaibhav is a very passionate and hardworking developer. He is always willing to give his best in every situation. He consistently delivered quality work well in time. He takes on complex technology problems head-on and is very persistent in learning and solving them. His out-of-the-box thinking has earned him appreciation from client as well. He is a team player who has always helped everyone to complete the tasks before deadline. It was a great time working with him! I will recommend him to anyone who is hiring, he will be a very important asset and contributing member in the team.',
+      image: 'https://media.licdn.com/dms/image/D4D03AQGd6rNN2qUy0A/profile-displayphoto-shrink_800_800/0/1668853026163?e=1683763200&v=beta&t=LMDodugMQL_7EynZpTG6nHh2O8OX52BwQujZD4-dAMI',
     },
   ],
 };
@@ -314,27 +314,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Please make sure to contact me if you any questions or are interested in the work I have done.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'vaibhavdubey1999@gmail.com',
+      href: 'mailto:vaibhavdubey1999@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Mumbai, India',
+      href: 'https://goo.gl/maps/zMEztWQ6cBjz5FP29',
     },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
+    // {
+    //   type: ContactType.Instagram,
+    //   text: '@tbakerx',
+    //   href: 'https://www.instagram.com/tbakerx/',
+    // },
     {
       type: ContactType.Github,
       text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      href: 'https://github.com/Vaibhav-Dubey',
     },
   ],
 };
@@ -343,9 +343,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Vaibhav-Dubey'},
+  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/vaibhav-dubey-2a3295131/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/vaibhavdubey2499/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/ayee_dubey'},
 ];
