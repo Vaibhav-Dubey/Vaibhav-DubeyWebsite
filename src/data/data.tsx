@@ -242,39 +242,43 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2017 - 2021',
+    location: 'Father Conceicao Rodrigues Institute of Technology, Navi Mumbai, University of Mumbai',
+    title: 'Bachelor of Engineering in Electronics and Telecommunication,',
+    content: <p>CGPA : 9.23/10</p>,
   },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+  // {
+  //   date: 'March 2003',
+  //   location: 'School of Business',
+  //   title: 'What did you study 101',
+  //   content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  // },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Jul 21 - Present',
+    location: 'LTIMindtree',
+    title: 'Senior Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Formally trained in Full Stack Development, Agile Methodologies, and DevOps Concepts. Working in the
+        Insurance Tech Unit, and assigned to a project involving the MERN stack.
+        Working on the Development of Integrations for the Client's Website.
+        Enhancing and making the present code base bug free with code improvements.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'May 2020 - March 2021',
+    location: ' Botonomics Automation',
+    title: 'Trainee Backend Developer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Worked on creating a Drupal Integration for the Company website.
+        Developed a web app for a sub-product using Django.
+        Developed a Bot in the telegram app to communicate through a desktop app.
+        Worked on frontEnd of the firm's mobile application on flutter.
       </p>
     ),
   },
