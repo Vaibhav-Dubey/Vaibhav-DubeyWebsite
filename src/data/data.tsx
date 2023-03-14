@@ -10,7 +10,7 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -36,8 +36,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Vaibhav Dubey',
+  description: "A website about me !!",
 };
 
 /**
@@ -333,7 +333,7 @@ export const contact: ContactSection = {
     // },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
+      text: 'Vaibhav-Dubey',
       href: 'https://github.com/Vaibhav-Dubey',
     },
   ],
